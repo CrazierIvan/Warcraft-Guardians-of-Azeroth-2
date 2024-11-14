@@ -1,4 +1,4 @@
-﻿# # dynasty = 47000
+# # dynasty = 47000
 # 76000={ #King Anub'Arak
 	# name=Anub'Arak
 	# dynasty = 47000
@@ -183,6 +183,9 @@ kilix_the_unraveler={
 	trait=education_stewardship_2 trait=vengeful
 	give_nickname=nick_the_unraveler
 	575.5.11={ birth=yes trait=creature_nerubian }
+	603.1.1={
+		employer = 32679 # Seer Ixit
+	}
 	777.4.22={ death=yes }
 }
 seer_ixit={
@@ -191,7 +194,13 @@ seer_ixit={
 	culture=nerubian religion=spider_philosophy
 	martial=6 diplomacy=6 stewardship=6 intrigue=5 learning=8
 	trait=education_learning_4 trait=vengeful trait=impatient trait=zealous
+	give_nickname=nick_the_seer
 	565.5.11={ birth=yes trait=creature_nerubian }
+	593.11.1={
+		effect = {
+			add_pressed_claim = title:k_enkilah
+		}
+	}
 	777.4.22={ death=yes }
 }
 
